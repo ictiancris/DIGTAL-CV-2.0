@@ -85,7 +85,7 @@ choice = st.sidebar.selectbox("Select an option", menu_items)
 #---HERO SECTION---
 hero_container = st.container()
 with hero_container:
-    st.image(profile_pic, width=230, use_column_width='always')
+    st.image(profile_pic, width=150, use_column_width='always')
     st.markdown(f"<h1 style='text-align: center;'>{NAME}</h1>", unsafe_allow_html=True)
     st.download_button(
         label="Download Resume",
